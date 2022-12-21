@@ -12,7 +12,7 @@ const insertData = async () => {
   await db.dropDatabase();
 
   await Category.create(categories);
-  await Question.create(questions);
+  // await Question.create(questions);
   await Question.create(questions_18);
   await Question.create(questions_19);
   await Question.create(questions_20);

@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 let Queston = new Schema({
   //id: Number,
+  category: String,
   title: String,
   correct_answer: String,
   answers: [String],
