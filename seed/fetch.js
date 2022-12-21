@@ -3,7 +3,7 @@ import axios from "axios";
 //fs - file system
 import fs from "fs";
 
-let categoryID = [18, 19, 20];
+let categoryID = [18, 19, 20, 21];
 
 categoryID.forEach((element) => {
   axios

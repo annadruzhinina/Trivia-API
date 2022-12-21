@@ -1,6 +1,6 @@
 [
-  { "name": "first category" },
-  { "name": "second category" },
-  { "name": "fird category" },
-  { "name": "forth category" }
+  { "name": "Science: Computers" },
+  { "name": "Mythology" },
+  { "name": "Science: Mathematics" },
+  { "name": "Sports" }
 ]
