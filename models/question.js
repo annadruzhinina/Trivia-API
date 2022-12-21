@@ -5,6 +5,7 @@ let Queston = new Schema({
   //id: Number,
   category: String,
   title: String,
+  type: String,
   correct_answer: String,
   answers: [String],
 });

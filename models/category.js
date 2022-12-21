@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 let Category = new Schema({
-  //id: Number,
+  id: Number,
   name: String,
 });
 

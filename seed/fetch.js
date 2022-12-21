@@ -11,6 +11,7 @@ categoryID.forEach((element) => {
       params: {
         amount: 10,
         category: element,
+        type: "multiple",
       },
     })
     .then(function (response) {
@@ -22,6 +23,7 @@ categoryID.forEach((element) => {
         return {
           category: item.category,
           title: item.question,
+          type: item.type,
           correct_answer: item.correct_answer,
           answers: answers,
         };
