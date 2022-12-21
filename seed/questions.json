@@ -1,0 +1,72 @@
+[
+  {
+    "title": "What does AD stand for in relation to Windows Operating Systems? ",
+    "correct_answer": "Active Directory",
+    "answers": [
+      "Active Directory",
+      "Alternative Drive",
+      "Automated Database",
+      "Active Department"
+    ]
+  },
+  {
+    "title": "Moore`s law originally stated that the number of transistors on a microprocessor chip would double every...",
+    "correct_answer": "Year",
+    "answers": ["Four Years", "Two Years", "Eight Years", "Year"]
+  },
+  {
+    "title": "On which computer hardware device is the BIOS chip located?",
+    "correct_answer": "Motherboard",
+    "answers": [
+      "Hard Disk Drive",
+      "Central Processing Unit",
+      "Motherboard",
+      "Graphics Processing Unit"
+    ]
+  },
+  {
+    "title": "What five letter word is the motto of the IBM Computer company?",
+    "correct_answer": "Think",
+    "answers": ["Click", "Think", "Logic", "Pixel"]
+  },
+  {
+    "title": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+    "correct_answer": "JavaScript",
+    "answers": ["C#", "Python", "PHP", "JavaScript"]
+  },
+  {
+    "title": "In CSS, which of these values CANNOT be used with the `position` property?",
+    "correct_answer": "center",
+    "answers": ["center", "static", "absolute", "relative"]
+  },
+  {
+    "title": "In computing terms, typically what does CLI stand for?",
+    "correct_answer": "Command Line Interface",
+    "answers": [
+      "Common Language Interface",
+      "Control Line Interface",
+      "Common Language Input",
+      "Command Line Interface"
+    ]
+  },
+  {
+    "title": "Which operating system was released first",
+    "correct_answer": "Mac OS",
+    "answers": ["Mac OS", "Windows", "Linux", "OS/2"]
+  },
+  {
+    "title": "How many bytes are in a single Kibibyte?",
+    "correct_answer": "1024",
+    "answers": ["2400", "1024", "1000", "1240"]
+  },
+  {
+    "title": "Which of these is not a key value of Agile software development?",
+    "correct_answer": "Comprehensive documentation",
+    "answers": [
+      "Customer collaboration",
+      "Individuals and interactions",
+      "Comprehensive documentation",
+      "Responding to change"
+    ]
+  }
+]
