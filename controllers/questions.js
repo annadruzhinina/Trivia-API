@@ -26,6 +26,22 @@ export const getQuestion = async (req, res) => {
   }
 };
 
+export const getQuestionCategory = async (req, res) => {
+  try {
+    const { category } = req.params;
+    const questions = await Question.find({ category: category });
+
+    if (questions) {
+      return res.json(questions);
+    }
+
+    res.status(404).json({ message: "Questions not found!" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.message });
+  }
+};
+
 export const createQuestion = async (req, res) => {
   const question = new Question(req.body);
   await question.save();
