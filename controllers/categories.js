@@ -1,5 +1,6 @@
 import Category from "../models/category.js";
 
+//Export GET Request for all Catigories
 export const getCategories = async (req, res) => {
   try {
     const categories = await Category.find();
@@ -10,6 +11,7 @@ export const getCategories = async (req, res) => {
   }
 };
 
+//Export GET Request for a Single Catigory
 export const getCategory = async (req, res) => {
   try {
     const { id } = req.params;
@@ -26,18 +28,21 @@ export const getCategory = async (req, res) => {
   }
 };
 
+//Export a POST Request for a Single Category
 export const createCategory = async (req, res) => {
   const category = new Category(req.body);
   await category.save();
   res.status(201).json(category);
 };
 
+//Export a PUT Request for a Single Category
 export const updateCategory = async (req, res) => {
   const { id } = req.params;
   const category = await Category.findByIdAndUpdate(id, req.body);
   res.status(201).json(category);
 };
 
+//Export a DELETE Request for a Single Category
 export const deleteCategory = async (req, res) => {
   try {
     const { id } = req.params;

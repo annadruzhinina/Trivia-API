@@ -3,6 +3,7 @@ import * as controllers from "../controllers/categories.js";
 
 const router = Router();
 
+//Setup Requests
 router.get("/", controllers.getCategories);
 router.get("/:id", controllers.getCategory);
 router.post("/", controllers.createCategory);

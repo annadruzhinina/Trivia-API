@@ -3,6 +3,7 @@ import * as controllers from "../controllers/questions.js";
 
 const router = Router();
 
+//Setup Requests
 router.get("/", controllers.getQuestions);
 router.get("/:id", controllers.getQuestion);
 router.get("/category/:category", controllers.getQuestionCategory);

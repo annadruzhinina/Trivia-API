@@ -3,8 +3,10 @@ import axios from "axios";
 //fs - file system
 import fs from "fs";
 
+//Categories id
 let categoryID = [18, 19, 20, 21];
 
+//Create questions files by categoryID
 categoryID.forEach((element) => {
   axios
     .get("https://opentdb.com/api.php", {

@@ -3,6 +3,7 @@ import chalk from "chalk";
 
 mongoose.set("returnOriginal", false);
 
+//Connect
 mongoose.connect("mongodb://127.0.0.1:27017/trivia").catch((err) => {
   console.log(`Error connection to MongoDB: ${err.message}`);
 });

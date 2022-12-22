@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema;
 
 let Queston = new Schema({
-  //id: Number,
   category: String,
   title: String,
   type: String,

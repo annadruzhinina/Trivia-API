@@ -1,5 +1,6 @@
 import Question from "../models/question.js";
 
+//Export GET Request for all Questions
 export const getQuestions = async (req, res) => {
   try {
     const questions = await Question.find();
@@ -10,6 +11,7 @@ export const getQuestions = async (req, res) => {
   }
 };
 
+//Export GET Request for a Question
 export const getQuestion = async (req, res) => {
   try {
     const { id } = req.params;
@@ -26,6 +28,7 @@ export const getQuestion = async (req, res) => {
   }
 };
 
+//Export a GET Request for a Questions by Category (filter by category)
 export const getQuestionCategory = async (req, res) => {
   try {
     const { category } = req.params;
@@ -42,18 +45,21 @@ export const getQuestionCategory = async (req, res) => {
   }
 };
 
+//Export a POST Request for a Single Category
 export const createQuestion = async (req, res) => {
   const question = new Question(req.body);
   await question.save();
   res.status(201).json(question);
 };
 
+//Export a PUT Request for a Single Category
 export const updateQuestion = async (req, res) => {
   const { id } = req.params;
   const question = await House.findByIdAndUpdate(id, req.body);
   res.status(201).json(question);
 };
 
+//Export a DELETE Request for a Single Category
 export const deleteQuestion = async (req, res) => {
   try {
     const { id } = req.params;
