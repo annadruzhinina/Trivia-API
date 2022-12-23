@@ -18,7 +18,12 @@ To get started, navigate to the root path or insert one of the following paths i
 1. Root Path: [http://localhost:3000/api/](http://localhost:3000/api/)
 2. Projects by questions: [http://localhost:3000/api/questions](http://localhost:3000/api/questions)
 3. Projects by сategories: [http://localhost:3000/api/categories](http://localhost:3000/api/categories)
-4. Projects by filtered сategory: [http://localhost:3000/api/questions/category/Science:%20Computers](http://localhost:3000/api/questions/category/Science:%20Computers)
+4. Projects by filtered сategory:
+
+- [http://localhost:3000/api/questions/category/Science:Computers](http://localhost:3000/api/questions/category/Science:%20Computers)
+- [http://localhost:3000/api/questions/category/Mythology]("http://localhost:3000/api/questions/category/Mythology")
+- [http://localhost:3000/api/questions/category/Science:Mathematics]("http://localhost:3000/api/questions/category/Science:%20Mathematics")
+- [http://localhost:3000/api/questions/category/Sports]("http://localhost:3000/api/questions/category/Sports")
 
 # Technical Notes
 
