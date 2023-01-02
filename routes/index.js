@@ -5,7 +5,7 @@ import questionRoutes from "./question.js";
 const router = Router();
 
 //Setup API Root
-router.get("/api", (req, res) => {
+router.get("/", (req, res) => {
   //res.send("This is the api root!");
   res.setHeader("Content-type", "text/html");
   res.write(`<h1><b>Choose Category:</b></h3>`);
