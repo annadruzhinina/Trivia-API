@@ -8,7 +8,7 @@ This Trivia project allows users to test their general knowledge. The [First Big
 
 The Second Big project task was to create API allows you to make a sets of questions by categories.
 
-1. GitHub Link: [https://git.generalassemb.ly/annadruzhinina/trivia-api-project](https://git.generalassemb.ly/annadruzhinina/trivia-api-project)
+1. GitHub Link: [https://github.com/annadruzhinina/Trivia-API](https://github.com/annadruzhinina/Trivia-API)
 2. Railway Link: [https://trivia-api-production-ccb2.up.railway.app/api/](https://trivia-api-production-ccb2.up.railway.app/api/)
 3. API Root Path: [http://localhost:3000/api/](http://localhost:3000/api/)
 4. Open Trivia Database API: [https://opentdb.com/api_config.php](https://opentdb.com/api_config.php)
